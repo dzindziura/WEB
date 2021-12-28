@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Auth/Client/chat.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/sketchy/bootstrap.min.css" integrity="sha384-RxqHG2ilm4r6aFRpGmBbGTjsqwfqHOKy1ArsMhHusnRO47jcGqpIQqlQK/kmGy9R" crossorigin="anonymous">s
+    <script src="../../node_modules/socket.io/client-dist/socket.io.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+
+    <script src="Auth/Client/chatService.js"></script>
+    <script src="Auth/Client/chat.js"></script>
+
+    <title>MyChat</title>
+</head>
+<body>
+
+<h1>Chat</h1>
+<div id="chat-header"></div>
+<div id="chat-wrapper"></div>
+
+<form id="messageForm">
+    <label for="message">Type in your message: </label>
+    <input type="text" class="form-control" id="message" name="message">
+    <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
