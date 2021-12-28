@@ -1,0 +1,9 @@
+[
+    {"username":"Mariia","password":"0099","age":19, "sex":"female"},
+
+    {"username":"Dan","password":"2020","age":51,"sex":"male"},
+    {"username":"Angela","password":"2021","age":35,"sex":"female"},
+    {"username": "Kiko", "password": "2222", "age": 3, "sex": "male"},
+    {"username": "Viktor", "password": "2022", "age": 40, "sex": "male"}
+    
+]
